@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --color:#141A1C;
+    --color1:#BFA37C;
+    --color2:#0C1315;
+    --font1: 'Roboto Condensed', sans-serif;
+    --font2: 'Roboto Condensed', sans-serif;;
+}
+.text1{
+    font-family: var(--font1);
+}
+.text2{
+    font-family: var(--font2);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: var(--color1);
+}
+.nav-img{
+    width: 140px;
+}
+.carousel-inner .carousel-img1,.carousel-img2,.carousel-img3,.carousel-img4{
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+}
+.carousel-inner .carousel-img1{
+    background-image: url(../images/background/h1-rev-img-1b.jpg);
+}
+.carousel-inner .carousel-img2{
+    background-image: url(../images/background/h1-rev-img-2b.jpg);
+}
+.carousel-inner .carousel-img3{
+    background-image: url(../images/background/h1-rev-img-3b.jpg);
+}
+.carousel-inner .carousel-img4{
+    background-image: url(../images/background/h1-rev-img-4b.jpg);
+}
+
+.experience,.hover-section,.safety,.rental,.contact,.footer{
+    background-color: var(--color);
+}
+.bg-img:hover .card-img-overlay{
+    display: block !important;
+    background: linear-gradient(rgba(3, 3, 3, 0.6),rgba(5, 5, 5, 0.7));
+}
+.gold-text{
+    color: var(--color1);
+    font-family: var(--font2);
+}
+#price{
+    font-size: 50px;
+    color: var(--color1);
+}
+.ride,.proffesional,.owl-section,.best-possibilities{
+    background-color: var(--color2);
+}
+.car-text{
+    margin: 0px 0px 0px 0px;
+}
+button{
+    border-color: #BFA37C;
+}
+.footer ul li{
+    list-style: none;
+}
+.footer ul li:hover{
+    list-style: disc;
+}
+@media only screen and (min-width:768px){
+    .car-text{
+        margin: 0px 0px 0px 10px;
+    }
+}
+@media only screen and (min-width:1024px){
+    .car-text{
+        margin: 0px 0px 0px 30px;
+    }
+}
+@media only screen and (min-width:1440px){
+    .car-text{
+        margin: 0px 0px 0px 110px;
+    }
+}
